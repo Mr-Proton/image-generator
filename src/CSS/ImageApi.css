@@ -1,0 +1,70 @@
+.image-generator{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.gender-options{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.gender-options div{
+    padding: 10px 20px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    border-radius: 5px;
+    background-color: #FEFEFF;
+    transition: 0.2s;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: system-ui;
+}
+
+.selected-gender{
+    border: 1px solid #2974F1 !important;
+    color: #FEFEFF;
+    background-color: #2974F1 !important;
+    box-shadow: 0 2px 5px #2972f1c6 !important;
+}
+
+.generated-img{
+    width: 512px;
+    height: 512px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #FEFEFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+
+
+.inputs{
+    margin-top: 30px;
+}
+
+.inputs input{
+    background-color: #FEFEFF;
+    outline: none;
+    border: 1px solid #ebebeb;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: system-ui;
+    width: 512px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+
+}
+
+.inputs button{
+    background-color: #FEFEFF;
+    border: none;
+    margin-left: -45px;
+    font-size: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,64 @@
+.topbar{
+    width: 100%;
+    background-color: #2974F1;
+    height: 60px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-name{
+    display: flex;
+}
+
+.website-name{
+    margin-left: 80px;
+}
+
+.website-name img{
+    width: 40px;
+    height: 40px;
+    border-radius: 6%;
+}
+
+.website-text{
+    margin: 0;
+    margin-left: 5px;
+    color: #FEFEFF;
+}
+
+.website-name h3{
+    font-size: 29px;
+}
+.website-name h6{
+    font-size: 13px;
+}
+
+.options{
+    margin-right: 80px;
+    display: flex;
+    color: #FEFEFF;
+    height: 100%;
+    cursor: pointer;
+    align-items: center;
+    background-color: #2056b5;
+    border-radius: 10px;
+    position: relative;
+}
+
+.options h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 10;
+    transition: 0.5s;
+}
+
+.selected-item{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    background-color: #FEFEFF;
+    border-radius: 6px;
+    transition: 0.5s;
+}

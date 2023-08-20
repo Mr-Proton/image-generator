@@ -1,0 +1,50 @@
+.overview-div{
+    background-color: #FEFEFF;
+    margin: 80px 40px 0px 40px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+.content{
+    display: flex;
+    width: max-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    align-items: baseline;
+}
+
+.content h3{
+    background-color: #FEF900;
+    padding: 0px 10px;
+    color: #2974F1;
+    font-size: 29px;
+    margin: 0px;
+}
+
+.content h4{
+    margin: 0px;
+    font-size: 20px;
+}
+
+.overview-div h5{
+    margin: 0;
+    padding-left: 10px;
+    color: rgb(142, 142, 142);
+    font-weight: 500;
+}
+
+.overview-div h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.use{
+    font-size: 23px !important;
+}
+
+.steps{
+    color: #000 !important;
+    font-size: 17px;
+    margin: 0;
+}

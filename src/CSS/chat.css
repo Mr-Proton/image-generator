@@ -1,0 +1,95 @@
+.chat-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-history{
+    width: 535px;
+    position: relative;
+    height: auto;
+    background-color: #FEFEFF;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+
+.user-prompt{
+    text-align: right;
+    padding-top: 20px;
+    color: #FEFEFF;
+    /*padding-left: 50px;*/
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 0px 10px;
+    font-family: system-ui;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: #2974F1;
+}
+
+.gen-text{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 10px 0px;
+    font-family: system-ui;
+    font-size: 17px;
+    margin-top: 30px;
+    background-color: #EBEAEB;
+}
+
+.you-text{
+    text-align: right;
+    color: #797979;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.ai-user{
+    text-align: left;
+    color: #797979;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.chat-inputs input{
+    margin-top: 20px;
+    background-color: #FEFEFF;
+    outline: none;
+    border: 1px solid #ebebeb;
+    border-top: 3px solid #cccccc;
+    height: 60px;
+    border-radius: 00px 0px 20px 20px;
+    padding-left: 20px;
+    font-size: 19px;
+    font-family: system-ui;
+    width: 453px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+    padding-right: 60px;
+}
+
+
+
+.chat-inputs button{
+    background-color: #FEFEFF;
+    border: none;
+    margin-left: -45px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
