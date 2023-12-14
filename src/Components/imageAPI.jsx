@@ -4,7 +4,7 @@ import { useState } from "react";
 import "../CSS/ImageApi.css";
 
 function ImageAPI() {
-  const API_TOKEN = "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";
+  const API_TOKEN = "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";
   const [comment, setComment] = useState("");
   const [image, setImage] = useState("");
   const [isLoading, setIsLoading] = useState(false)
