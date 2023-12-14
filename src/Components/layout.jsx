@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import ImageApi from './imageAPI'
 import Topbar from './Topbar'
-import Chat from './Chat'
 import Overview from './Overview'
 
 
